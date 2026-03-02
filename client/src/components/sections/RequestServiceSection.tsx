@@ -39,9 +39,33 @@ export default function RequestServiceSection() {
     }
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
+    
+    // Prepare email content
+    const emailContent = `
+      طلب خدمة جديد:
+      
+      الخدمة المطلوبة: ${formData.service}
+      الاسم: ${formData.name}
+      البريد الإلكتروني: ${formData.email}
+      رقم الهاتف: ${formData.phone}
+      التفاصيل: ${formData.message}
+    `;
+    
+    // Send email using mailto
+    const mailtoLink = `mailto:askistor@gmail.com?subject=طلب خدمة جديد من ${formData.name}&body=${encodeURIComponent(emailContent)}`;
+    window.location.href = mailtoLink;
+    
+    // Reset form
+    setFormData({
+      service: '',
+      name: '',
+      email: '',
+      phone: '',
+      message: '',
+    });
+    setCurrentStep(0);
   };
 
   return (

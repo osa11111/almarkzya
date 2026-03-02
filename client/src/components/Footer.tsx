@@ -28,7 +28,7 @@ export default function Footer() {
           <div className="space-y-4">
             <h4 className="font-bold text-foreground">الروابط السريعة</h4>
             <ul className="space-y-2">
-              {['الرئيسية', 'الخدمات', 'من نحن', 'الأعمال', 'المدونة'].map((link) => (
+              {['الرئيسية', 'الخدمات', 'من نحن', 'المدونة'].map((link) => (
                 <li key={link}>
                   <a
                     href="#"
@@ -65,10 +65,10 @@ export default function Footer() {
               <li className="flex items-center gap-2">
                 <Mail size={16} className="text-primary" />
                 <a
-                  href="mailto:info@centraldigital.com"
+                  href="mailto:askistor@gmail.com"
                   className="text-muted-foreground hover:text-primary transition-colors text-sm"
                 >
-                  info@centraldigital.com
+                  askistor@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-2">

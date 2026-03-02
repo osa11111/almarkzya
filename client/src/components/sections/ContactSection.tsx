@@ -6,8 +6,8 @@ const contactInfo = [
   {
     icon: Mail,
     title: 'البريد الإلكتروني',
-    value: 'info@centraldigital.com',
-    link: 'mailto:info@centraldigital.com',
+    value: 'askistor@gmail.com',
+    link: 'mailto:askistor@gmail.com',
   },
   {
     icon: Phone,
@@ -18,7 +18,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: 'العنوان',
-    value: 'طرابلس، ليبيا',
+    value: 'الجفرة سوكنة، ليبيا',
     link: '#',
   },
 ];

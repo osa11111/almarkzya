@@ -10,11 +10,11 @@ const values = [
 ];
 
 const timeline = [
-  { year: '2005', event: 'تأسيس الشركة', side: 'right' },
-  { year: '2008', event: 'أول عميل كبير', side: 'left' },
-  { year: '2012', event: 'افتتاح مكتب جديد', side: 'right' },
-  { year: '2017', event: 'توسع خط الإنتاج', side: 'left' },
-  { year: '2021', event: 'التوسع العالمي', side: 'right' },
+  { year: '2023', event: 'تأسيس الشركة', side: 'right' },
+  { year: '2023', event: 'بداية العمل مع العملاء', side: 'left' },
+  { year: '2024', event: 'توسع الخدمات', side: 'right' },
+  { year: '2024', event: 'زيارة مشاريع ناجحة', side: 'left' },
+  { year: '2025', event: 'تطوير المنصات', side: 'right' },
   { year: '2026', event: 'رائدة في التحول الرقمي', side: 'left' },
 ];
 
@@ -45,7 +45,7 @@ export default function AboutSection() {
               تساعد الشركات على التحول الرقمي والنمو المستدام.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              مع خبرة تزيد عن 20 سنة في المجال، نفخر بأننا ساعدنا مئات الشركات
+              مع خبرة 4 سنوات في المجال منذ 2023، نفخر بأننا ساعدنا العديد من الشركات
               على تحقيق أهدافها من خلال حلول تقنية مبتكرة وموثوقة.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">

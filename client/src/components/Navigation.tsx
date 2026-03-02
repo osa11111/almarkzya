@@ -20,7 +20,6 @@ export default function Navigation({ isScrolled }: NavigationProps) {
     { label: 'الرئيسية', id: 'home' },
     { label: 'الخدمات', id: 'services' },
     { label: 'من نحن', id: 'about' },
-    { label: 'الأعمال', id: 'portfolio' },
     { label: 'المدونة', id: 'blog' },
     { label: 'اطلب خدمتك', id: 'request' },
     { label: 'تواصل معنا', id: 'contact' },
